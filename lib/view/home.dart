@@ -14,20 +14,24 @@ class HomeScreen extends StatelessWidget {
           TextFormField(
             controller: pro.textcontroller,
           ),
-          
-          ElevatedButton(onPressed: (){pro.datas();}, child: const Text('Click'),
+          SizedBox(height: 20),
+          ElevatedButton(
+            onPressed: () {
+              pro.datas();
+            },
+            child: const Text('Click'),
           ),
           Expanded(
             child: ListView.builder(
               itemCount: pro.data.length,
               itemBuilder: (context, index) {
-                final data = pro.data[index]; 
-              return ListTile(
-                title: Text(data),
-              );
-            },),
+                final data = pro.data[index];
+                return ListTile(
+                  title: Text(data),
+                );
+              },
+            ),
           )
-
         ],
       ),
     );
