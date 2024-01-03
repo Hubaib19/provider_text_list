@@ -21,7 +21,7 @@ class HomeScreen extends StatelessWidget {
               pro.datas();
             },
             child: const Text(
-              'Click',
+              'Press',
               style: TextStyle(color: Colors.black),
             ),
           ),
