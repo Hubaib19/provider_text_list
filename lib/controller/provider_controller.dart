@@ -7,7 +7,7 @@ class TextProvider extends ChangeNotifier {
 
   TextEditingController textcontroller = TextEditingController();
 
-  datas() {
+  void datas() {
     if (textcontroller.text == 'fruit') {
       data.clear();
       for (var element in fruit) {
@@ -21,7 +21,8 @@ class TextProvider extends ChangeNotifier {
       }
       notifyListeners();
     } else {
-      // const Text('invalied');
+      const Text('invalied');
+      data.clear();
       data.add("invalid");
       notifyListeners();
     }
