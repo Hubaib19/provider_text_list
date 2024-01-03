@@ -22,7 +22,7 @@ class HomeScreen extends StatelessWidget {
             },
             child: const Text(
               'Click',
-              style: TextStyle(color: Colors.white),
+              style: TextStyle(color: Colors.black),
             ),
           ),
           Expanded(
