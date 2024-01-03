@@ -9,6 +9,7 @@ class HomeScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     final pro = Provider.of<TextProvider>(context);
     return Scaffold(
+      backgroundColor: Colors.deepOrange,
       body: Column(
         children: [
           TextFormField(
