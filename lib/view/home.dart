@@ -20,7 +20,7 @@ class HomeScreen extends StatelessWidget {
             onPressed: () {
               pro.datas();
             },
-            child: const Text('Click'),
+            child: const Text('Click',style: TextStyle(color: Colors.white),),
           ),
           Expanded(
             child: ListView.builder(
