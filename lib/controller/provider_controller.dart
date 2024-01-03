@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 
 class TextProvider extends ChangeNotifier {
   List<String> fruit = ['mango', 'orange', 'apple'];
-  List<String> vehicle = ['car', 'jeep', 'bike', 'c'];
+  List<String> vehicle = ['car', 'jeep', 'bike'];
   List data = [];
 
   TextEditingController textcontroller = TextEditingController();
