@@ -14,7 +14,7 @@ class HomeScreen extends StatelessWidget {
           TextFormField(
             controller: pro.textcontroller,
           ),
-          SizedBox(height: 20),
+          const SizedBox(height: 20),
           ElevatedButton(
             onPressed: () {
               pro.datas();
